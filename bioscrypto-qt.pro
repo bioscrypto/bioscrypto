@@ -242,7 +242,8 @@ HEADERS += src/qt/bitcoingui.h \
     src/sph_jh.h \
     src/sph_keccak.h \
     src/sph_skein.h \
-    src/sph_types.h
+    src/sph_types.h \
+    src/qt/macnotificationhandler.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -445,3 +446,6 @@ contains(RELEASE, 1) {
 }
 
 system($$QMAKE_LRELEASE -silent $$_PRO_FILE_)
+
+OBJECTIVE_SOURCES += \
+    src/qt/macnotificationhandler.mm
