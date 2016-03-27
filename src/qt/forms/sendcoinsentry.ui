@@ -81,9 +81,30 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="addressBookButton">
+      <widget class="QPushButton" name="addressBookButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>28</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>28</width>
+         <height>24</height>
+        </size>
+       </property>
        <property name="toolTip">
         <string>Choose address from address book</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">max-width: 24px; min-width: 24px; margin-left: 2px;</string>
        </property>
        <property name="text">
         <string/>
@@ -98,9 +119,30 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="pasteButton">
+      <widget class="QPushButton" name="pasteButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>28</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>28</width>
+         <height>24</height>
+        </size>
+       </property>
        <property name="toolTip">
         <string>Paste address from clipboard</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">max-width: 24px; min-width: 24px; margin-left: 2px;</string>
        </property>
        <property name="text">
         <string/>
@@ -115,9 +157,30 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="deleteButton">
+      <widget class="QPushButton" name="deleteButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>28</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>28</width>
+         <height>24</height>
+        </size>
+       </property>
        <property name="toolTip">
         <string>Remove this recipient</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">max-width: 24px; min-width: 24px; margin-left: 2px;</string>
        </property>
        <property name="text">
         <string/>
@@ -147,7 +210,7 @@
   </customwidget>
   <customwidget>
    <class>BitcoinAmountField</class>
-   <extends>QLineEdit</extends>
+   <extends>QSpinBox</extends>
    <header>bitcoinamountfield.h</header>
    <container>1</container>
   </customwidget>

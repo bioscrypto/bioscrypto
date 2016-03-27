@@ -43,6 +43,16 @@
         <file alias="debugwindow">res/icons/debugwindow.png</file>
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
+        <file alias="down_arrow">res/icons/downarrow.png</file>
+        <file alias="up_arrow">res/icons/uparrow.png</file>
+        <file alias="left_arrow">res/icons/leftarrow.png</file>
+        <file alias="right_arrow">res/icons/rightarrow.png</file>
+        <file alias="cb_checked">res/icons/cb_checked.png</file>
+        <file alias="cb_unchecked">res/icons/cb_unchecked.png</file>
+        <file alias="rb_checked">res/icons/rb_checked.png</file>
+        <file alias="rb_unchecked">res/icons/rb_unchecked.png</file>
+        <file alias="slider_handle">res/icons/slider_handle.png</file>
+
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
